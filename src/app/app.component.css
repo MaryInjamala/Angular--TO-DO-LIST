@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+.info_section {
+
+    background-color: #979696;
+    display: flex;
+    max-width: 970px;
+    min-height: 250px;
+    margin: 100px auto;
+
+
+}
+
+.info_box {
+    background-color: aliceblue;
+    width: 33.3%;
+    min-height: 250px;
+    float: left;
+    padding: 12px 0 0;
+    margin: 20px;
+
+
+}
+
+.line-text {
+    color: black;
+    font-size: 18px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+
+    border: 1px solid gainsboro;
+    padding: 14px;
+
+}
+
+.check:checked+span {
+    text-decoration: line-through;
+}

@@ -1,0 +1,46 @@
+<h1>TO-DO LIST</h1>
+<div class="info_section">
+  
+   <!-- TODO TASKS -->
+  <div class="info_box">
+    <div class="line-text">
+      <h1>NewtTasks</h1>
+      <div *ngFor="let item of toDO()" class="card">
+        <div></div>
+        <input type="checkbox" class="cbox3">
+        <span>
+          {{ item.task }}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPLETED -->
+  <div class="info_box">
+    <div class="line-text">
+      <h1>Completed</h1>
+    </div>
+    <div *ngFor="let item of completedItems()" class="card">
+      <div></div>
+      <input type="checkbox" class="check" [attr.checked]="isChecked">
+      <span>
+        {{item.task}}
+      </span><br>
+    </div>
+  </div>
+
+  <!-- DELETED -->
+  <div class="info_box">
+    <div class="line-text">
+      <h1>Deleted</h1>
+    </div>
+    <div>
+      <pre>{{this.doTask | json}}</pre>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- <pre>{{plan | json}}</pre> -->

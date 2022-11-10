@@ -1,0 +1,38 @@
+[
+    {
+        "task":"Go to gym",
+        "done":true
+    },
+    {
+        "task":"Go shopping",
+        "done":true
+    },
+    {
+        "task":"Call MOM",
+        "done":true
+    },
+    {
+        "task":"Buy Groceries",
+        "done":true
+    },
+    {
+        "task":"Complete Assignment",
+        "done":true
+    },
+    {
+        "task":"Plan a trip",
+        "done":false
+    },
+    {
+        "task":"Return Books",
+        "done":false
+    },
+    {
+        "task":"Learn driving",
+        "done":false
+    },
+    {
+        "task":"get ready for dinner",
+        "done":false
+    }
+    ]
